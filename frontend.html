@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>SoapClient</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+  <div style="background-image: url('picto.png');">
+
+
+<div class="container">
+  <h2>Cloud Project Form</h2>
+  <p> la formule pour la demande de crédit </p>
+  <form  action="soapclient.php" method="get">
+    <div class="form-group">
+      <label for="email">SSN:</label>
+      <input type="text" class="form-control" id="SSN" placeholder="Enter SSN" name="SSN">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Homeprice:</label>
+      <input type="number" class="form-control" id="home" placeholder="Enter price home " name="home">
+      <small id="emailHelp" class="form-text text-muted">We'll never share your contract with anyone else.</small>
+    </div>
+    <div class="form-group">
+      <label for="pwd">Loanamount:</label>
+      <input type="number" class="form-control" id="Loan" placeholder="Enter loanamount" name="Loan">
+    </div>
+
+    <button type="submit" class="btn btn-warning btn-lg btn-block">ENVOYER</button>
+    
+    <p>If you click the "Envoyer" button, the form-data will be sent to a page called "/soapclient.php".</p>
+  </form>
+  
+</div>
+
+</body>
+
+<footer>
+  <p>© 2020 PROTOS All right reserved Armel && Amara</p>
+</footer>
+</html>
